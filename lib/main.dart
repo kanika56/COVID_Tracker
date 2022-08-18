@@ -26,11 +26,6 @@ class MyApp extends StatelessWidget {
         return MaterialApp(
           debugShowCheckedModeBanner: false,
           theme: theme,
-          // theme: ThemeData(
-          //   fontFamily: 'Circular',
-          //   primaryColor: primaryBlack,
-          //   //brightness: Brightness.dark,
-          // ),
           home: HomePage(),
         );
       },
